@@ -1,0 +1,63 @@
+/* Footer */
+footer {
+  height: 325px;
+  padding: 50px 100px 50px 100px;
+  background-color: #212529;
+}
+.up {
+  height: 50%;
+  text-align: start;
+  margin-bottom: 40px;
+}
+.down {
+  height: 50%;
+}
+#tataSrtiveFooter {
+  height: 60px;
+  width: 200px;
+  margin-bottom: 20px;
+  margin: 15px;
+}
+.up a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+}
+.up a:hover {
+  color: #e4ff30;
+  text-decoration: underline;
+}
+
+.down {
+  display: flex;
+  border-top: #e4ff30 2px solid;
+  padding: 15px;
+  justify-content: space-between;
+}
+.call {
+  display: inline-block;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.footer-down-info {
+  margin-top: 10px;
+
+  padding: 3px;
+}
+.fa-phone {
+  color: #4988c4;
+}
+.fa-brands {
+  font-size: x-large;
+  margin-left: 10px;
+}
+.fa-brands:hover {
+  background-color: #e4ff30;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  width: 30px;
+  padding: 3px;
+  cursor: pointer;
+}
