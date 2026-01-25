@@ -48,12 +48,5 @@ Om Krishna Hankare
 
 ---
 
-## ✅ Why this README is GOOD
-✔ Honest (no fake claims)  
-✔ Recruiter-friendly  
-✔ Clean structure  
-✔ Shows awareness of limitations  
-✔ Shows future growth mindset  
 
----
 
