@@ -1,52 +1,37 @@
 # Tata STRIVE Frontend Website
-https://omhankare.github.io/tata-strive-frontend/
+
+🔗 Live Demo: https://omhankare.github.io/tata-strive-frontend/
 
 ## Description
-This project is a static, desktop-optimized frontend website built using HTML5 and CSS3. It focuses on clean UI design, structured layouts, and multi-page navigation. The website is designed to display correctly on desktop screens only and does not include JavaScript or backend functionality.
+This is a simple frontend website built using HTML, CSS, and Bootstrap.  
+It focuses on basic layout design, styling, and multi-page navigation.
 
 ## Features
 - Static multi-page website
-- Clean and structured UI layout
-- Desktop screen optimized design
-- Organized folder structure
+- Clean layout design
+- Basic responsive design using Bootstrap
 
 ## Tech Stack
-- HTML5
-- CSS3
+- HTML
+- CSS
+- Bootstrap
 
 ## Project Structure
-TATASTRIVEPROJECT/  
+TATASTRIVEPROJECT/
 │── index.html  
- │
 ├── pages/  
- │
-│── style/  
- │
-│── resources/  
-How to Run
-Download or clone the repository
+├── style/  
+├── resources/  
 
-Open the project folder
+## How to Run
+1. Download or clone the repository  
+2. Open the project folder  
+3. Open `index.html` in a browser  
 
-Open index.html in any modern web browser
+## Limitations
+- No backend functionality  
+- No dynamic features  
+- Limited interactivity  
 
-Limitations
-The website is optimized for desktop screens only
-
-Not responsive for mobile or tablet devices
-
-No JavaScript or backend functionality
-
-Future Improvements
-Add responsive design using CSS media queries
-
-Improve layout for smaller screen sizes
-
-Author
+## Author
 Om Krishna Hankare
-
-
----
-
-
-
