@@ -1,7 +1,6 @@
 .video-container {
   overflow: hidden;
 }
-
 .video-container video {
   width: 100%;
   height: 800px;
@@ -12,7 +11,6 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 .what-we-do {
   padding: 50px 100px 50px 100px;
 }
@@ -20,22 +18,19 @@
   font-size: medium;
   margin-bottom: 10px;
 }
-
 .cards {
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .card {
-  height: 350px;
   width: 260px;
 }
-
 .card img {
   height: 250px;
   width: 100%;
 }
-
 .bo {
   font-weight: bold;
 }
@@ -43,13 +38,11 @@
   border-left: 3px #e4ff30 solid;
   padding: 5px;
 }
-
 .tata-model {
   padding: 50px 100px 50px 100px;
   background-color: #212529;
   color: white;
 }
-
 .card2 {
   height: 380px;
   width: 320px;
@@ -68,21 +61,17 @@
   font-size: xxx-large;
   font-weight: bold;
 }
-
 .impact {
   padding: 50px 100px 50px 100px;
 }
 .card3 {
-  height: 330px;
   width: 320px;
+  height: 380px;
   background-color: #f8f8f9;
   padding: 25px;
 }
-.card3:hover {
-  border: 2px solid black;
-}
 .card3 img {
-  height: 241px;
+  height: 100%;
   width: 100%;
 }
 .up1 {
@@ -107,7 +96,6 @@
 .se4 {
   border-left: #f375c2 5px solid;
 }
-
 .se1 p {
   padding-left: 15px;
 }
@@ -120,7 +108,6 @@
 .se4 p {
   padding-left: 15px;
 }
-
 .tataWay {
   padding: 50px 100px 50px 100px;
 }
@@ -137,7 +124,6 @@
   padding-top: 10px;
   font-weight: bold;
 }
-
 .read {
   background-color: #e4ff30;
   color: black;
@@ -153,6 +139,7 @@
   color: #e4ff30;
   border: #e4ff30 2px solid;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 .partners {
   padding: 50px 100px 50px 100px;
@@ -162,17 +149,14 @@
   background: #fff;
   overflow: hidden;
 }
-
 .he {
   text-align: center;
   margin-bottom: 30px;
 }
-
 .marquee {
   width: 100%;
   overflow: hidden;
 }
-
 .marquee-track {
   display: flex;
   gap: 60px;
@@ -182,7 +166,6 @@
   padding: 0;
   margin: 0;
 }
-
 .marquee-track li img {
   height: 30px;
   width: auto;
@@ -190,18 +173,50 @@
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
-
 .marquee-track li img:hover {
   filter: grayscale(0%);
   cursor: pointer;
 }
-
-/* animation */
 @keyframes scroll {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-50%);
+  }
+}
+.carousel-item img {
+  height: 750px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .what-we-do,
+  .tata-model,
+  .impact,
+  .tataWay,
+  .partners {
+    padding: 30px 20px;
+  }
+  .what-we-do h1,
+  .he {
+    font-size: 28px;
+    text-align: center;
+  }
+  .video-container video,
+  .carousel-item img {
+    height: 60vh;
+  }
+  .cards {
+    gap: 20px;
+  }
+  .card,
+  .card2,
+  .card3,
+  .card4 {
+    max-width: 100%;
+  }
+  .marquee-track {
+    gap: 30px;
   }
 }

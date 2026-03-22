@@ -2,66 +2,81 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
-  font-weight: normal;
-  font-size: 16px;
-  font-family: "Radikal";
-  color: var(--text-grey);
-  line-height: 1.25;
+  font-family: "Radikal", Arial, sans-serif;
+  line-height: 1.4;
   font-weight: 300;
 }
+
+body {
+  font-size: 16px;
+}
+
 #tataSrtive {
   height: 40px;
-  width: 150px;
+  width: auto;
 }
-.header a:hover {
-  background-color: #e4ff30;
-  padding: 10px;
-  border-radius: 20px;
-  color: black;
-}
-.header nav a:hover {
-  background-color: #e4ff30;
-  padding: 10px;
-  border-radius: 20px;
-  color: black;
-}
+
 .header {
   background: #003366;
-  color: white;
-  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 100px 10px 100px;
-  position: sticky;
-  z-index: 1000;
-  top: 0;
+  padding: 10px 100px;
 }
+
 .header a {
   color: white;
-  margin: 0 10px;
   text-decoration: none;
+  margin: 0 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
 }
+
 .header a:hover {
-  text-decoration: underline;
-  color: wheat;
+  background-color: #e4ff30;
+  color: black;
+}
+
+.main {
+  padding: 20px 100px;
 }
 
 footer {
   background: #003366;
   color: white;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
 
 @media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .header nav {
+    margin-top: 10px;
+  }
+
+  .header a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .main {
+    padding: 20px;
+  }
+
   .cards {
     flex-direction: column;
     align-items: center;
   }
-}
-
-.main {
-  padding: 10px 100px 10px 100px;
 }

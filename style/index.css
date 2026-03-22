@@ -2,9 +2,7 @@
   height: 40px;
   width: 150px;
 }
-/* .header a {
-  padding: 10px;
-} */
+
 .header a:hover {
   background-color: #e4ff30;
   padding: 10px;
